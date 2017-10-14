@@ -1,17 +1,6 @@
 {
   "name": "clipboard-polyfill",
   "description": "A polyfill for the asynchronous clipboard API",
-  "main": "build/clipboard-polyfill.js",
-  "dependencies": {
-    "es6-promise": "4.1.1"
-  },
-  "devDependencies": {
-    "ts-loader": "2.3.7",
-    "typescript": "2.5.3",
-    "webpack": "3.6.0",
-    "webpack-bundle-analyzer": "2.9.0",
-    "webpack-notifier": "1.5.0"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/lgarron/clipboard-polyfill"
@@ -30,15 +19,13 @@
   ],
   "author": "Lucas Garron <code@garron.net> (https://garron.net/)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lgarron/clipboard-polyfill/issues"
-  },
+  "filename": "clipboard-polyfill.min.js",
   "npmName": "clipboard-js",
   "npmFileMap": [
     {
       "basePath": "build",
       "files": [
-        "**/*"
+        "clipboard-polyfill.*"
       ]
     }
   ]
